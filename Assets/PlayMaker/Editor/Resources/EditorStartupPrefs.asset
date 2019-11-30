@@ -16,5 +16,9 @@ MonoBehaviour:
   playmakerVersion: 
   showWelcomeScreen: 1
   showUpgradeGuide: 0
+<<<<<<< HEAD
   lastAutoUpdateSignature: 2019.2.14f1__C:/Users/Andreas/source/repos/hlos/Assets__0.0.0.0
+=======
+  lastAutoUpdateSignature: 2019.2.14f1__D:/Unity/Map HLOS/hlos/Assets__0.0.0.0
+>>>>>>> 50d441a54dbf26a9c0b8d27b9c9d12bc640c0726
   useLegacyNetworking: 0
