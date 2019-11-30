@@ -5,18 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Climb
-<<<<<<< HEAD
-  - Water
-  - Animal
-  - Fire
   - Fly
-=======
-  - Fly
-  - Water
-  - Animal
-  - Fire
->>>>>>> 50d441a54dbf26a9c0b8d27b9c9d12bc640c0726
-  - Collide
   layers:
   - Default
   - TransparentFX
