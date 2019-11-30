@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Climb
+  - Fly
+  - Water
+  - Animal
+  - Fire
+  - Collide
   layers:
   - Default
   - TransparentFX
@@ -25,7 +31,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Animal
   - 
   - 
   - 
