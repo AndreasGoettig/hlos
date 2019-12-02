@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 419854}
   - component: {fileID: 3353008}
   - component: {fileID: 2303208}
-  - component: {fileID: 4686059900036177080}
+  - component: {fileID: 3427136316102941450}
   m_Layer: 0
   m_Name: SM_Env_Tiles_02
   m_TagString: Untagged
@@ -79,7 +79,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4686059900036177080
+--- !u!64 &3427136316102941450
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
