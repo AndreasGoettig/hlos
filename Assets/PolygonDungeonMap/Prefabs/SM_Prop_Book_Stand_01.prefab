@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 33736771847824914}
   - component: {fileID: 23895506670490264}
   - component: {fileID: 4865725374478944970}
+  - component: {fileID: 5198490958137960246}
+  - component: {fileID: 1495213790474117930}
   m_Layer: 0
   m_Name: SM_Prop_Book_Stand_01
   m_TagString: Untagged
@@ -93,3 +95,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 3a78f920e8561f0479edd196131b5037, type: 3}
+--- !u!114 &5198490958137960246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186507660809184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadcc2d9a34a1a34f93d4962ec37e6e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_data: {fileID: 11400000, guid: 8d76322dd88f588419081f3cf1176971, type: 2}
+  m_rootTransform: {fileID: 4878312952821094}
+  m_lodGroup: {fileID: 1495213790474117930}
+  m_renderers:
+  - {fileID: 23895506670490264}
+  m_lodReplacement: 2
+  m_renderPipelineInUse: 0
+  m_insertIndex: 0
+  m_lastImpostor: {fileID: 0}
+  m_folderPath: Assets/Amplify Stuff/
+  m_cutMode: 0
+--- !u!205 &1495213790474117930
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186507660809184}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1

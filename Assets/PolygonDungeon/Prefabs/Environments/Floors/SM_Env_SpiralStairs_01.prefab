@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3375622}
   - component: {fileID: 2377310}
   - component: {fileID: 3494583669323863738}
+  - component: {fileID: 6783434280482990344}
   m_Layer: 0
   m_Name: SM_Env_SpiralStairs_01
   m_TagString: Untagged
@@ -93,3 +94,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 582753050b9358a4283c64caf52f61c7, type: 3}
+--- !u!205 &6783434280482990344
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144082}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1

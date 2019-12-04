@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3318048}
   - component: {fileID: 2354784}
   - component: {fileID: 4795287562278627417}
+  - component: {fileID: 1601395381345200623}
   m_Layer: 0
   m_Name: SM_Env_Railing_01
   m_TagString: Untagged
@@ -93,3 +94,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 25d7b8ed596a0c643b12cb0e8b79b3ff, type: 3}
+--- !u!205 &1601395381345200623
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158776}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
