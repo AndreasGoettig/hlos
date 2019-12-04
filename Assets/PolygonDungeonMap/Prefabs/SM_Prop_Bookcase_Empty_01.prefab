@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33593782065286772}
   - component: {fileID: 23752738463214016}
   - component: {fileID: 1527232516601669716}
+  - component: {fileID: 898102963236357254}
   m_Layer: 0
   m_Name: SM_Prop_Bookcase_Empty_01
   m_TagString: Untagged
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267968479630396}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.7961353, z: -0, w: 0.6051187}
+  m_LocalPosition: {x: -1.0775175, y: 0, z: 1.8715135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -105.525, z: 0}
 --- !u!33 &33593782065286772
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -93,3 +94,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: b64f0f3ec335adc42ab02254712b3e56, type: 3}
+--- !u!205 &898102963236357254
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267968479630396}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.11381457
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.10330135
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
