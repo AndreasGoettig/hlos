@@ -11,9 +11,6 @@ GameObject:
   - component: {fileID: 419854}
   - component: {fileID: 3353008}
   - component: {fileID: 2303208}
-  - component: {fileID: 3427136316102941450}
-  - component: {fileID: 2233747538152608800}
-  - component: {fileID: 3237439721153142816}
   - component: {fileID: 5050251761883192968}
   m_Layer: 0
   m_Name: SM_Env_Tiles_02
@@ -83,68 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3427136316102941450
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121644}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 2b33d93632b2cc1408a952ea2be3079e, type: 3}
---- !u!205 &2233747538152608800
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121644}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -2.500001, y: 0.08059252, z: 2.4999995}
-  m_Size: 5.000002
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.31887367
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.3051173
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.1
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 7934095878494551460}
-  m_Enabled: 1
---- !u!114 &3237439721153142816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadcc2d9a34a1a34f93d4962ec37e6e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_data: {fileID: 11400000, guid: bddcda32ca2306446b7066786fb2d706, type: 2}
-  m_rootTransform: {fileID: 419854}
-  m_lodGroup: {fileID: 2233747538152608800}
-  m_renderers:
-  - {fileID: 2303208}
-  m_lodReplacement: 2
-  m_renderPipelineInUse: 0
-  m_insertIndex: 1
-  m_lastImpostor: {fileID: 6404191386832327511}
-  m_folderPath: Assets/Amplify Stuff/
-  m_cutMode: 0
 --- !u!65 &5050251761883192968
 BoxCollider:
   m_ObjectHideFlags: 0
