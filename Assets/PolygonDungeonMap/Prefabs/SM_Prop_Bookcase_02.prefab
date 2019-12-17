@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 4907498887613208}
   - component: {fileID: 33692453712762650}
   - component: {fileID: 23664087961861998}
-  - component: {fileID: 4642748669524337586}
-  - component: {fileID: 730043751182789078}
+  - component: {fileID: 3603236527157991158}
   m_Layer: 0
   m_Name: SM_Prop_Bookcase_02
   m_TagString: Untagged
@@ -80,51 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &4642748669524337586
-MonoBehaviour:
+--- !u!65 &3603236527157991158
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795410665338804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadcc2d9a34a1a34f93d4962ec37e6e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_data: {fileID: 0}
-  m_rootTransform: {fileID: 4907498887613208}
-  m_lodGroup: {fileID: 730043751182789078}
-  m_renderers:
-  - {fileID: 23664087961861998}
-  m_lodReplacement: 2
-  m_renderPipelineInUse: 0
-  m_insertIndex: 0
-  m_lastImpostor: {fileID: 0}
-  m_folderPath: Assets/Amp Stuff/
-  m_cutMode: 0
---- !u!205 &730043751182789078
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795410665338804}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: -70.3168, y: 9.179999, z: -42.404274}
-  m_Size: 5
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.1034611
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 0}
-  - screenRelativeHeight: 0.101683065
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.1
-    fadeTransitionWidth: 0
-    renderers: []
-  m_Enabled: 1
+  m_Size: {x: 2.5000014, y: 4.9999995, z: 1.0525248}
+  m_Center: {x: -1.2500007, y: 2.4999998, z: 0.5262624}

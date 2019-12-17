@@ -11,9 +11,7 @@ GameObject:
   - component: {fileID: 446176}
   - component: {fileID: 3366708}
   - component: {fileID: 2370236}
-  - component: {fileID: 3630777545710452521}
-  - component: {fileID: 366287167397613809}
-  - component: {fileID: 7141454195132190306}
+  - component: {fileID: 790606083200996082}
   m_Layer: 0
   m_Name: SM_Env_Wall_03
   m_TagString: Untagged
@@ -82,8 +80,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3630777545710452521
-MeshCollider:
+--- !u!65 &790606083200996082
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,58 +90,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 7b6fc4d4a2910f84e8487af00020cbc4, type: 3}
---- !u!205 &366287167397613809
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189982}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: -2.4718971, y: 2.5222666, z: 0.057518005}
-  m_Size: 5.1782913
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.3
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.3
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.1
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4877790587660999129}
-  m_Enabled: 1
---- !u!114 &7141454195132190306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadcc2d9a34a1a34f93d4962ec37e6e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_data: {fileID: 11400000, guid: d9f49429c7297464ba9deaaf1ef6c6a3, type: 2}
-  m_rootTransform: {fileID: 446176}
-  m_lodGroup: {fileID: 366287167397613809}
-  m_renderers:
-  - {fileID: 2370236}
-  m_lodReplacement: 2
-  m_renderPipelineInUse: 0
-  m_insertIndex: 1
-  m_lastImpostor: {fileID: 6864263535230198221}
-  m_folderPath: Assets/Amplify Stuff/
-  m_cutMode: 0
+  m_Size: {x: 5.1782913, y: 5.1280828, z: 0.42949295}
+  m_Center: {x: -2.4718971, y: 2.5222666, z: 0.057518005}
 --- !u!1 &6864263535230198221
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +132,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6864263535230198221}
-  m_Mesh: {fileID: -3782811882371286298, guid: d9f49429c7297464ba9deaaf1ef6c6a3, type: 2}
+  m_Mesh: {fileID: 0}
 --- !u!23 &4877790587660999129
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -201,7 +150,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3803376825046984342, guid: d9f49429c7297464ba9deaaf1ef6c6a3, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

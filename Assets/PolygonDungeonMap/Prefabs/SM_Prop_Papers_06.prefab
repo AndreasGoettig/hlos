@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 4571844705543010}
   - component: {fileID: 33119551641854436}
   - component: {fileID: 23812544904314820}
-  - component: {fileID: 1556273869614127612}
-  - component: {fileID: 6521815306995319260}
   m_Layer: 0
   m_Name: SM_Prop_Papers_06
   m_TagString: Untagged
@@ -81,54 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1556273869614127612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590886285646724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadcc2d9a34a1a34f93d4962ec37e6e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_data: {fileID: 11400000, guid: d4f56e130b533b4449bb5b6c7eadb7e4, type: 2}
-  m_rootTransform: {fileID: 4571844705543010}
-  m_lodGroup: {fileID: 6521815306995319260}
-  m_renderers:
-  - {fileID: 23812544904314820}
-  m_lodReplacement: 2
-  m_renderPipelineInUse: 0
-  m_insertIndex: 0
-  m_lastImpostor: {fileID: 1825135919705940360}
-  m_folderPath: Assets/Amplify Stuff/
-  m_cutMode: 0
---- !u!205 &6521815306995319260
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590886285646724}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0.00000035762787, y: 0.02651548, z: -0.00000011920929}
-  m_Size: 1.1650795
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.3
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.3
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.1
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 6179626693280543599}
-  m_Enabled: 1
 --- !u!1 &1825135919705940360
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,7 +118,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825135919705940360}
-  m_Mesh: {fileID: 7972279749210260897, guid: d4f56e130b533b4449bb5b6c7eadb7e4, type: 2}
+  m_Mesh: {fileID: 0}
 --- !u!23 &6179626693280543599
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -186,7 +136,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5494144277979326811, guid: d4f56e130b533b4449bb5b6c7eadb7e4, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

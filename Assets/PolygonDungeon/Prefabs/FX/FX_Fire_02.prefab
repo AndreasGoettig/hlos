@@ -11,14 +11,13 @@ GameObject:
   - component: {fileID: 456254}
   - component: {fileID: 19862286}
   - component: {fileID: 19926160}
-  - component: {fileID: 2495726272799851043}
-  - component: {fileID: 534942966536162010}
+  - component: {fileID: 2839906100857144822}
   m_Layer: 0
   m_Name: FX_Fire_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &456254
 Transform:
@@ -44,7 +43,7 @@ ParticleSystem:
   m_GameObject: {fileID: 103198}
   serializedVersion: 6
   lengthInSec: 1
-  simulationSpeed: 1
+  simulationSpeed: 0.4
   stopAction: 0
   cullingMode: 3
   ringBufferMode: 0
@@ -3720,7 +3719,7 @@ ParticleSystem:
       properties: 0
       emitProbability: 1
   LightsModule:
-    enabled: 0
+    enabled: 1
     ratio: 0
     light: {fileID: 0}
     randomDistribution: 1
@@ -4711,55 +4710,44 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!205 &2495726272799851043
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103198}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.056353062, y: 0.38802785, z: 0.030830413}
-  m_Size: 1.0314589
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.081303135
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 19926160}
-    - renderer: {fileID: 3512158271439680629}
-  - screenRelativeHeight: 0.07896841
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.074399754
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 3512158271439680629}
-  m_Enabled: 1
---- !u!114 &534942966536162010
-MonoBehaviour:
+--- !u!23 &2839906100857144822
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103198}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadcc2d9a34a1a34f93d4962ec37e6e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_data: {fileID: 11400000, guid: 7640803edf84f1d4fa18955f5a49e8e3, type: 2}
-  m_rootTransform: {fileID: 456254}
-  m_lodGroup: {fileID: 2495726272799851043}
-  m_renderers: []
-  m_lodReplacement: 2
-  m_renderPipelineInUse: 0
-  m_insertIndex: 1
-  m_lastImpostor: {fileID: 4478152750996229989}
-  m_folderPath: Assets/Amplify Stuff/
-  m_cutMode: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &4478152750996229989
 GameObject:
   m_ObjectHideFlags: 0
@@ -4776,7 +4764,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4041158079936718530
 Transform:
@@ -4799,7 +4787,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4478152750996229989}
-  m_Mesh: {fileID: 8850675351767944646, guid: 7640803edf84f1d4fa18955f5a49e8e3, type: 2}
+  m_Mesh: {fileID: 0}
 --- !u!23 &3512158271439680629
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4817,7 +4805,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 757398423382159810, guid: 7640803edf84f1d4fa18955f5a49e8e3, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

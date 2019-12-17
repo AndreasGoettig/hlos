@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 4553571482624642}
   - component: {fileID: 33593782065286772}
   - component: {fileID: 23752738463214016}
-  - component: {fileID: 1527232516601669716}
-  - component: {fileID: 898102963236357254}
+  - component: {fileID: 7140060276630661785}
   m_Layer: 0
   m_Name: SM_Prop_Bookcase_Empty_01
   m_TagString: Untagged
@@ -80,8 +79,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1527232516601669716
-MeshCollider:
+--- !u!65 &7140060276630661785
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,31 +89,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: b64f0f3ec335adc42ab02254712b3e56, type: 3}
---- !u!205 &898102963236357254
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267968479630396}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.11381457
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.10330135
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.1
-    fadeTransitionWidth: 0
-    renderers: []
-  m_Enabled: 1
+  m_Size: {x: 2.5000021, y: 4.9999995, z: 1.052525}
+  m_Center: {x: -1.2499995, y: 2.4999998, z: 0.5262625}
