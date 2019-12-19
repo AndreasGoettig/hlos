@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 400616}
   - component: {fileID: 3346856}
   - component: {fileID: 2389588}
+  - component: {fileID: 3255898341448179250}
   m_Layer: 0
   m_Name: SM_Env_Wall_Culled_01_Alt
   m_TagString: Untagged
@@ -48,7 +49,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149828}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3255898341448179250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.269392, y: 5.302386, z: 0.24419515}
+  m_Center: {x: -2.469616, y: 2.513326, z: 0.13405275}

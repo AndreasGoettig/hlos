@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 488036}
   - component: {fileID: 3324058}
   - component: {fileID: 2306560}
+  - component: {fileID: 8036064899304200927}
   m_Layer: 0
   m_Name: SM_Env_Door_05
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8036064899304200927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3178458, y: 2.1836424, z: 0.24129546}
+  m_Center: {x: -0.6381464, y: 1.0918212, z: 0.036542907}
