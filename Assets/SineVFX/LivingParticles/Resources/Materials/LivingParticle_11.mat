@@ -100,7 +100,7 @@ Material:
     - _Distance: 4
     - _DistancePower: 1
     - _FadeCloseDistance: 0.65
-    - _FinalMaskMultiply: 1
+    - _FinalMaskMultiply: 10
     - _FinalPower: 0
     - _FinalPower2: 1.5
     - _Float7: 0.875
@@ -110,7 +110,7 @@ Material:
     - _OffsetPower: 0.25
     - _OffsetYLock: 1
     - _RampEnabled: 1
-    - _Smoothness: 0
+    - _Smoothness: 1
     - _SoftParticleDistance: 0
     - _SoftParticlesEnabled: 0
     - _ToggleSwitch0: 0
@@ -122,8 +122,8 @@ Material:
     m_Colors:
     - _Affector: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorTint: {r: 0, g: 0.75245667, b: 1, a: 1}
-    - _FinalColor: {r: 0, g: 0.941309, b: 1, a: 1}
+    - _ColorTint: {r: 0, g: 0.7480449, b: 0.9716981, a: 1}
+    - _FinalColor: {r: 0, g: 0.9411764, b: 1, a: 1}
     - _FinalColor2: {r: 0, g: 0, b: 0, a: 1}
     - _FinalUnlitColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 1, g: 0, b: 0, a: 0.5}

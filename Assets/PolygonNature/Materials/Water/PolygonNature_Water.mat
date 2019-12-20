@@ -4,13 +4,15 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PolygonNature_Water
   m_Shader: {fileID: 4800000, guid: 1ab581f9e0198304996581171522f458, type: 3}
   m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
@@ -84,18 +86,18 @@ Material:
     - _SpecularHighlights: 0
     - _SrcBlend: 1
     - _UVSec: 0
-    - _WaterDepth: 0.09
-    - _WaterFalloff: 2
-    - _WaterOpacity: 0.8
+    - _WaterDepth: 1
+    - _WaterFalloff: 10
+    - _WaterOpacity: 1
     - _WaterReflection: 1
-    - _WaterScale: 0.175
-    - _WaterSmoothness: 2
+    - _WaterScale: 1
+    - _WaterSmoothness: 1
     - _WaterSpecular: 0
-    - _WaterSpeed: 0.042
+    - _WaterSpeed: 0.27
     - _ZWrite: 1
-    - __dirty: 1
+    - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _WaterDeepColor: {r: 0.14901961, g: 0.28235295, b: 0.29411766, a: 0}
-    - _WaterShallowColor: {r: 0.3019608, g: 0.427451, b: 0.41960788, a: 0}
+    - _WaterDeepColor: {r: 0.2476415, g: 0.36046067, b: 0.5, a: 1}
+    - _WaterShallowColor: {r: 0.2242791, g: 0.32645497, b: 0.4528302, a: 1}
