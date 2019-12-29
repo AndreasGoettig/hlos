@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 456828}
   - component: {fileID: 3382616}
   - component: {fileID: 2337766}
+  - component: {fileID: 876755304184962722}
   m_Layer: 0
   m_Name: SM_Prop_Skeleton_Knight_Throne_01
   m_TagString: Untagged
@@ -78,3 +79,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &876755304184962722
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: acc1607a2d317e74887929a53681edc5, type: 3}

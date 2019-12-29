@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 33402396017034346}
   - component: {fileID: 23957786004397878}
   - component: {fileID: 7903402513295206193}
+  - component: {fileID: 7916354070493443591}
+  - component: {fileID: 1446982184420248018}
   m_Layer: 0
   m_Name: SM_Prop_Bookcase_Grand_03
   m_TagString: Untagged
@@ -30,7 +32,7 @@ Transform:
   m_LocalPosition: {x: -0.63748115, y: 0, z: 1.7772932}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2433473784984064541}
+  - {fileID: 4345263254991435616}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -87.317, z: 0}
@@ -93,7 +95,56 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5000014, y: 5, z: 1.1092438}
   m_Center: {x: -1.25, y: 2.5, z: 0.5546219}
---- !u!1 &6079575730442726965
+--- !u!114 &7916354070493443591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548518983427842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadcc2d9a34a1a34f93d4962ec37e6e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_data: {fileID: 11400000, guid: 79c9bea208a116d4398139247e6f186b, type: 2}
+  m_rootTransform: {fileID: 4530738633515184}
+  m_lodGroup: {fileID: 1446982184420248018}
+  m_renderers:
+  - {fileID: 23957786004397878}
+  m_lodReplacement: 2
+  m_renderPipelineInUse: 0
+  m_insertIndex: 1
+  m_lastImpostor: {fileID: 1904305658776460486}
+  m_folderPath: Assets/Amplify Stuff/
+  m_cutMode: 0
+--- !u!205 &1446982184420248018
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548518983427842}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.2500002, y: 2.5, z: 0.554622}
+  m_Size: 5
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 65003499252711005}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 65003499252711005}
+  m_Enabled: 1
+--- !u!1 &1904305658776460486
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,9 +152,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2433473784984064541}
-  - component: {fileID: 1126282382375543387}
-  - component: {fileID: 897813262247175246}
+  - component: {fileID: 4345263254991435616}
+  - component: {fileID: 8093433148533326193}
+  - component: {fileID: 65003499252711005}
   m_Layer: 0
   m_Name: Impostor
   m_TagString: Untagged
@@ -111,13 +162,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2433473784984064541
+--- !u!4 &4345263254991435616
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6079575730442726965}
+  m_GameObject: {fileID: 1904305658776460486}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -125,21 +176,21 @@ Transform:
   m_Father: {fileID: 4530738633515184}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1126282382375543387
+--- !u!33 &8093433148533326193
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6079575730442726965}
-  m_Mesh: {fileID: 0}
---- !u!23 &897813262247175246
+  m_GameObject: {fileID: 1904305658776460486}
+  m_Mesh: {fileID: 7877383023096909399, guid: 79c9bea208a116d4398139247e6f186b, type: 2}
+--- !u!23 &65003499252711005
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6079575730442726965}
+  m_GameObject: {fileID: 1904305658776460486}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -150,7 +201,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: -6394984528062185267, guid: 79c9bea208a116d4398139247e6f186b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 1f9ddbff6000c3e48ab05a45d3474e13, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission:
@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicSmoothness:
-        m_Texture: {fileID: 2800000, guid: 716d7ba1113de9c47830d83623210506, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 82fccd7cbd4dd95419c98c5c2417f809, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParticleTexture:
@@ -106,11 +106,11 @@ Material:
     - _Float7: 0.875
     - _InvFade: 1
     - _LockYOffset: 1
-    - _Metallic: 1
+    - _Metallic: 0
     - _OffsetPower: 0.25
     - _OffsetYLock: 1
     - _RampEnabled: 1
-    - _Smoothness: 1
+    - _Smoothness: 0
     - _SoftParticleDistance: 0
     - _SoftParticlesEnabled: 0
     - _ToggleSwitch0: 0
@@ -122,8 +122,8 @@ Material:
     m_Colors:
     - _Affector: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorTint: {r: 0, g: 0.7480449, b: 0.9716981, a: 1}
-    - _FinalColor: {r: 0, g: 0.9411764, b: 1, a: 1}
+    - _ColorTint: {r: 0.2242791, g: 0.32645497, b: 0.4528302, a: 1}
+    - _FinalColor: {r: 0.2242791, g: 0.32645497, b: 0.4528302, a: 1}
     - _FinalColor2: {r: 0, g: 0, b: 0, a: 1}
     - _FinalUnlitColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 1, g: 0, b: 0, a: 0.5}
