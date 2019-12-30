@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 487028}
   - component: {fileID: 3357748}
   - component: {fileID: 2333904}
+  - component: {fileID: 1825661650448646813}
   m_Layer: 0
   m_Name: SM_Wep_Spear_03
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1825661650448646813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15512681, y: 2.2539606, z: 0.10345646}
+  m_Center: {x: -0.00000059604645, y: 0.78835267, z: -0.012137208}

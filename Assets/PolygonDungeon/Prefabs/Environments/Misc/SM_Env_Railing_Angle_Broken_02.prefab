@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 491210}
   - component: {fileID: 3332866}
   - component: {fileID: 2376810}
+  - component: {fileID: 1526323578217665866}
   m_Layer: 0
   m_Name: SM_Env_Railing_Angle_Broken_02
   m_TagString: Untagged
@@ -78,3 +79,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1526323578217665866
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167310}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 73cba68a955bf0341b3b9f7ff7f84051, type: 3}

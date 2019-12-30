@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 486244}
   - component: {fileID: 3319696}
   - component: {fileID: 2363996}
+  - component: {fileID: 2808169662821260647}
   m_Layer: 0
   m_Name: SM_Wep_Sword_01
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2808169662821260647
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23613979, y: 1.0454233, z: 0.054378398}
+  m_Center: {x: 0.0000009536743, y: 0.38235536, z: -0.000008014031}
