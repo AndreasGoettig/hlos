@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &-5518580059314952197
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SM_Prop_Crate_Base_01_Impostor
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 18
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: -0.000030219555, y: -0.006107211, z: 0}
+      m_Extent: {x: 0.71760446, y: 0.72675955, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 070005000300030001000700070006000500050004000300030002000100010000000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 256
+    _typelessdata: e8b637bfb1c49f3e000000000000000000000000000080bfdcb5cd3be708383f558c37bf68e5d1be000000000000000000000000000080bfec5adc3bd87d633eeb6a80be289d3bbf000000000000000000000000ffff7fbf89a6a73e000000000515ad3e289d3bbf000000000000000000000000ffff7fbffb893b3f00000000f2b2373fab7dadbe000000000000000000000000000080bfdb617e3fc4ca8a3e67b0373f4f59a53e000000000000000000000000000080bf1b607e3f56f4393f0b98a53eac7c383f000000000000000000000000000080bf8ef6383f0000803fbe35afbeac7c383f000000000000000000000000000080bf4775873e0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.0000003874302, y: 0.2679879, z: -0.00000029802322}
+    m_Extent: {x: 0.66314125, y: 0.2679879, z: 0.32785034}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ba7a43222473d4292f91ae936fe2cc, type: 3}
+  m_Name: SM_Prop_Crate_Base_01_Impostor
+  m_EditorClassIdentifier: 
+  Material: {fileID: 6718824588970357147}
+  Mesh: {fileID: -5518580059314952197}
+  Version: 9602
+  ImpostorType: 1
+  LockedSizes: 1
+  SelectedSize: 2048
+  TexSize: {x: 2048, y: 2048}
+  DecoupleAxisFrames: 0
+  HorizontalFrames: 16
+  VerticalFrames: 16
+  PixelPadding: 32
+  MaxVertices: 8
+  Tolerance: 0.15
+  NormalScale: 0.01
+  ShapePoints:
+  - {x: 0.006277783, y: 0.28111416}
+  - {x: 0.006724706, y: 0.77784026}
+  - {x: 0.32744244, y: 1}
+  - {x: 0.73257416, y: 1}
+  - {x: 0.99368066, y: 0.7289218}
+  - {x: 0.99365395, y: 0.27361548}
+  - {x: 0.7225121, y: 0}
+  - {x: 0.26456663, y: 0}
+  Preset: {fileID: 11400000, guid: e4786beb7716da54dbb02a632681cc37, type: 2}
+  OverrideOutput: []
+--- !u!21 &6718824588970357147
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SM_Prop_Crate_Base_01_Impostor
+  m_Shader: {fileID: 4800000, guid: 572f9be5706148142b8da6e9de53acdb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 9709e9ce5e033f04c8b50e61fc8b042a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 88952ee9ddd347742a44fe3f822540a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 0283f1fc687376f438806e7269ced33b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 2800000, guid: 90a5dd90c37690f49b63afdfe7be8f29, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AI_AlphaToCoverage: 0
+    - _AI_ShadowBias: 0.25
+    - _AI_ShadowView: 1
+    - _ClipMask: 0.5
+    - _DepthSize: 1.4625303
+    - _Frames: 16
+    - _Hemi: 0
+    - _Hue: 0
+    - _ImpostorSize: 1.4535191
+    - _Parallax: 1
+    - _TextureBias: -1
+    m_Colors:
+    - _AI_SizeOffset: {r: 1.4535191, g: 1.4625303, b: 0, a: -0.00026260506}
+    - _HueVariation: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0.0000003874302, g: 0.2679879, b: -0.00000029802322, a: 0.004201681}

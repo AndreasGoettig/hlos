@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-5880637773830540219
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SM_Env_Stone_Throne_01_Impostor
+  m_Shader: {fileID: 4800000, guid: 572f9be5706148142b8da6e9de53acdb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 4ea3e9387210d7c449570a1c7dbeea84, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 0f4834d2f1ba5b04bb3b480df6f31983, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 7e0f1bcc13cef3c46be74a57e86d753d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 2800000, guid: 53903cd6538771247bb84728b6ce4beb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AI_AlphaToCoverage: 0
+    - _AI_ShadowBias: 0.25
+    - _AI_ShadowView: 1
+    - _ClipMask: 0.5
+    - _DepthSize: 2.2583036
+    - _Frames: 16
+    - _Hemi: 0
+    - _Hue: 0
+    - _ImpostorSize: 2.2567337
+    - _Parallax: 1
+    - _TextureBias: -1
+    m_Colors:
+    - _AI_SizeOffset: {r: 2.2567337, g: 2.2583036, b: 0, a: -0.0018078513}
+    - _HueVariation: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: -0.0000009536743, g: 0.9450051, b: 0.0000019073486, a: 0.02892562}
+--- !u!43 &-1352970060548231047
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SM_Env_Stone_Throne_01_Impostor
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 18
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0.0031271577, y: -0.06527746, z: 0}
+      m_Extent: {x: 0.77210665, y: 1.1283668, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 070005000300030001000700070006000500050004000300030002000100010000000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 256
+    _typelessdata: d7db44bfb77877bf000000000000000000000000000080bfb912233e60f7cd3d558fbabe56c998bf000000000000000000000000ffff7fbff754ad3e000000001f22ba3e56c998bf000000000000000000000000000080bf523d293f00000000c37c423f93587bbf000000000000000000000000000080bf502e563f483bc03db975463f1eaf5d3f000000000000000000000000000080bff2f0573f21a3693f89b94d3e5013883f000000000000000000000000000080bf44ca163f0000803f1b947dbe5013883f000000000000000000000000000080bf3ed1c73e0000803f43af44bffbd7573f000000000000000000000000000080bfbd61233e9b0c673f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.0000009536743, y: 0.9450051, z: 0.0000019073486}
+    m_Extent: {x: 0.5486698, y: 0.945005, z: 0.48513985}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ba7a43222473d4292f91ae936fe2cc, type: 3}
+  m_Name: SM_Env_Stone_Throne_01_Impostor
+  m_EditorClassIdentifier: 
+  Material: {fileID: -5880637773830540219}
+  Mesh: {fileID: -1352970060548231047}
+  Version: 9602
+  ImpostorType: 1
+  LockedSizes: 1
+  SelectedSize: 2048
+  TexSize: {x: 2048, y: 2048}
+  DecoupleAxisFrames: 0
+  HorizontalFrames: 16
+  VerticalFrames: 16
+  PixelPadding: 32
+  MaxVertices: 8
+  Tolerance: 0.15
+  NormalScale: 0.01
+  ShapePoints:
+  - {x: 0.15925111, y: 0.8994305}
+  - {x: 0.33853886, y: 1}
+  - {x: 0.6610919, y: 1}
+  - {x: 0.8366442, y: 0.90613693}
+  - {x: 0.8435203, y: 0.0873546}
+  - {x: 0.5890238, y: 0}
+  - {x: 0.39026827, y: 0}
+  - {x: 0.15955253, y: 0.097463906}
+  Preset: {fileID: 11400000, guid: e4786beb7716da54dbb02a632681cc37, type: 2}
+  OverrideOutput: []

@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-8758821258323740762
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SM_Prop_Candle_Chandelier_02_Impostor
+  m_Shader: {fileID: 4800000, guid: 572f9be5706148142b8da6e9de53acdb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 10d9113b9f159e24fa9fc670d5d25b95, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 976f6dc22ac6952439d3e7667068a18a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: 9bbe9359b005f004d9ca36bf2056797d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 2800000, guid: 1f84d261f92d1c24c8346254e982a04a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AI_AlphaToCoverage: 0
+    - _AI_ShadowBias: 0.25
+    - _AI_ShadowView: 1
+    - _ClipMask: 0.5
+    - _DepthSize: 3.2074568
+    - _Frames: 16
+    - _Hemi: 0
+    - _Hue: 0
+    - _ImpostorSize: 3.215512
+    - _Parallax: 1
+    - _TextureBias: -1
+    m_Colors:
+    - _AI_SizeOffset: {r: 3.215512, g: 3.2074568, b: 0, a: -0.0039473684}
+    - _HueVariation: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0.0000019073486, g: -1.3388124, b: -0.0000009536743, a: 0.06315789}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ba7a43222473d4292f91ae936fe2cc, type: 3}
+  m_Name: SM_Prop_Candle_Chandelier_02_Impostor
+  m_EditorClassIdentifier: 
+  Material: {fileID: -8758821258323740762}
+  Mesh: {fileID: 2149458375420641974}
+  Version: 9602
+  ImpostorType: 1
+  LockedSizes: 1
+  SelectedSize: 2048
+  TexSize: {x: 2048, y: 2048}
+  DecoupleAxisFrames: 0
+  HorizontalFrames: 16
+  VerticalFrames: 16
+  PixelPadding: 32
+  MaxVertices: 8
+  Tolerance: 0.15
+  NormalScale: 0.01
+  ShapePoints:
+  - {x: 0.11191221, y: 0.2755021}
+  - {x: 0.11242233, y: 0.87412125}
+  - {x: 0.3361179, y: 1}
+  - {x: 0.5898632, y: 1}
+  - {x: 0.88692176, y: 0.9157132}
+  - {x: 0.88810986, y: 0.28264064}
+  - {x: 0.5895355, y: 0}
+  - {x: 0.40966165, y: 0}
+  Preset: {fileID: 11400000, guid: e4786beb7716da54dbb02a632681cc37, type: 2}
+  OverrideOutput: []
+--- !u!43 &2149458375420641974
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SM_Prop_Candle_Chandelier_02_Impostor
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 18
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0.000035464764, y: -0.20308495, z: 0}
+      m_Extent: {x: 1.2479365, y: 1.607756, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 070005000300030001000700070006000500050004000300030002000100010000000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 256
+    _typelessdata: 38bb9fbf79cf043f000000000000000000000000000080bf3b32e53db278393f78859fbf4ffab3bf000000000000000000000000000080bfae3de63d5ce6003e2ce706bfa3c9e7bf000000000000000000000000000080bfa517ac3e000000000ff2933ea3c9e7bf000000000000000000000000000080bf4601173f000000005c409f3faf18c5bf000000000000000000000000000080bf4e0d633f909eac3d8bbd9f3f4edefd3e000000000000000000000000000080bf2b5b633fdda4373ff167933e43ccb33f000000000000000000000000000080bfcceb163f0000803f53ba94be43ccb33f000000000000000000000000000080bf2cbfd13e0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.0000019073486, y: -1.3388124, z: -0.0000009536743}
+    m_Extent: {x: 1.1848392, y: 1.3732655, z: 1.1845331}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
