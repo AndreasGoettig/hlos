@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 468780}
   - component: {fileID: 3333976}
   - component: {fileID: 2308032}
+  - component: {fileID: 1119110914206687890}
   m_Layer: 0
   m_Name: SM_Prop_Barrel_Half_01
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &1119110914206687890
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.42126465
+  m_Center: {x: 0.0109272, y: 0.23791885, z: 0}
