@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: cliff_desert_03
   m_Shader: {fileID: 4800000, guid: a240f60fb0df9bd49bf2ef7bb1efb449, type: 3}
-  m_ShaderKeywords: _EMISSION _HEIGHTFOGCOLOR
+  m_ShaderKeywords: _HEIGHTFOGCOLOR
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
